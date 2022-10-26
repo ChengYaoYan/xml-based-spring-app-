@@ -1,9 +1,9 @@
 package dev.llf;
 
-import dev.llf.course.Course;
+import dev.llf.client.service.ClientService;
+import dev.llf.service.locator.ServiceLocator;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import java.util.List;
 
 public class Application {
     public static void main(String[] args) {
@@ -11,11 +11,9 @@ public class Application {
         ApplicationContext context = new ClassPathXmlApplicationContext("services.xml");
 
         // retrieve configured instance
-        Course course = context.getBean("course", Course.class);
+        ClientService client = context.getBean("clientService", ClientService.class);
 
-        // use configured instance
-        List<String> courseList = course.list();
-
-        System.out.println(courseList);
+        System.out.println(client.getYears());
+        System.out.println(client.getUltimateAnswer());
     }
 }

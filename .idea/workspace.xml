@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3070919e-99ca-40be-9b6f-dafd95d082e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/llf/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/llf/course/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/llf/course/CourseImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/llf/account/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/llf/client/service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/llf/service/locator/ServiceLocator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/llf/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/llf/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/llf/course/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/llf/course/CourseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/services.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/services.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "231e13149e7785182c3abeebc71b32fa"
+    "spring.configuration.checksum": "13987697a340070a994cbe276961bb01"
   }
 }]]></component>
   <component name="RunManager">
@@ -80,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1666778413378</updated>
       <workItem from="1666778414470" duration="467000" />
-      <workItem from="1666779055480" duration="1718000" />
+      <workItem from="1666779055480" duration="4362000" />
+      <workItem from="1666786686433" duration="1279000" />
     </task>
     <servers />
   </component>
